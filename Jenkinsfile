@@ -9,7 +9,7 @@ pipeline {
         stage('Building and Push the Docker Image'){
             steps{
                 script {
-                    docker.withRegistry('', registryCredential ) {
+                    docker.withRegistry(registery, registryCredential ) {
                         def customImage = docker.build dockerImage
                         customImage.push()
                     }
