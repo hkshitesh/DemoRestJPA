@@ -3,7 +3,7 @@ pipeline {
     environment {
         registry = "docker.io"
         registryCredential = 'dockerhub'
-        dockerImage = 'mohakbajaj/CI-CD-Lab-1'
+        dockerImage = 'mohakbajaj/ci-cd-lab-1'
     }
     stages {
         stage('Building and Push the Docker Image'){
