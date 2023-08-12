@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: hksharma
+Build-Jdk: 17.0.4.1
+Class-Path: lib/sonar-maven-plugin-3.9.0.2155.jar lib/plexus-sec-dispatc
+ her-1.4.jar lib/plexus-cipher-1.4.jar lib/plexus-utils-3.2.1.jar lib/so
+ nar-scanner-api-2.16.1.361.jar lib/commons-lang-2.6.jar
+Main-Class: mypkg.MyCalculator
+Created-By: Maven Integration for Eclipse
+
